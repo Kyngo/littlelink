@@ -97,6 +97,7 @@ body {
     sans-serif;
   background-image: url('/images/bg.png');
   background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 /* Typography
