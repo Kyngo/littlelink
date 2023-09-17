@@ -95,7 +95,15 @@ body {
   font-weight: 400;
   font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
-  background-image: url('/images/bg.png');
+    background: 
+      radial-gradient(calc(1.28*24px + 9px/2) at left 50% bottom calc(-.8*24px),#ebe4d1 calc(100% - 9px),#b2b2b2 calc(101% - 9px) 100%,#0000 101%) calc(2*24px) calc(-1*calc(1.5*24px + 9px)),
+      radial-gradient(calc(1.28*24px + 9px/2) at left 50% bottom calc(-.8*24px),#d9cfb3 calc(100% - 9px),#b2b2b2 calc(101% - 9px) 100%,#0000 101%) calc(-1*24px) calc(calc(1.5*24px + 9px)/-2),
+      radial-gradient(calc(1.28*24px + 9px/2) at left 50% top    calc(-.8*24px),#d9cfb3 calc(100% - 9px),#b2b2b2 calc(101% - 9px) 100%,#0000 101%) 0 calc(1.5*24px + 9px),
+      radial-gradient(calc(1.28*24px + 9px/2) at left 50% top    calc(-.8*24px),#ebe4d1 calc(100% - 9px),#b2b2b2 calc(101% - 9px) 100%,#0000 101%) 24px calc(calc(1.5*24px + 9px)/ 2),
+      linear-gradient(#ebe4d1 50%,#d9cfb3 0);
+background-size: calc(4*24px) calc(1.5*24px + 9px);
+
+
   background-repeat: repeat;
   background-attachment: fixed;
   min-height: 100vh;
